@@ -1,4 +1,3 @@
-Place Jenkinsfile in your repo:
 pipeline {
  agent any
  environment {
@@ -32,4 +31,5 @@ usernameVariable: 'DOCKER_USER', passwordVariable: 'DOCKER_PASS')]) {
  }
  }
  }
+
 }
